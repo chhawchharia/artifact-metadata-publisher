@@ -1,6 +1,8 @@
 module github.com/drone-plugins/artifact-metadata-publisher
 
-go 1.26.10
+go 1.25.11
+
+toolchain go1.26.10
 
 require (
 	github.com/pkg/errors v0.9.1
